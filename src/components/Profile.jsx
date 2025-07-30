@@ -1,7 +1,6 @@
 import React from 'react'
-import { IoCopyOutline } from "react-icons/io5";
 import MyImage from "/tushar28.png"
-import { FaReact, FaJsSquare, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 
 const Profile = () => {
