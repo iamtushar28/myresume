@@ -1,6 +1,8 @@
 import React from 'react'
 import { IoCopyOutline } from "react-icons/io5";
-import MyImage from "../../public/tushar28.png"
+import MyImage from "/tushar28.png"
+import { FaReact, FaJsSquare, FaGithub } from "react-icons/fa";
+
 
 const Profile = () => {
     return (
@@ -14,17 +16,21 @@ const Profile = () => {
 
                 <div>
                     {/* name */}
-                    <h2 className='text-black font-semibold'>Tushar Suryawanshi</h2>
+                    <h2 className='text-black dark:text-white font-semibold'>Tushar Suryawanshi</h2>
                     {/* work */}
-                    <h4 className='text-[#98A1B2] text-sm'>Frontend Developer</h4>
+                    <h4 className='text-[#98A1B2] dark:text-[#6B6B6B] text-sm'>Frontend Developer</h4>
                 </div>
             </div>
 
-            {/* button for copy email */}
-            <button className='py-2 w-[90px] h-fit text-zinc-600 text-sm font-semibold border border-zinc-200 bg-white/60 rounded-lg flex justify-center items-center gap-2 cursor-pointer'>
-                <IoCopyOutline className='text-lg' />
-                E-mail
-            </button>
+            {/* button for github link */}
+            <a
+                href='https://github.com/iamtushar28/'
+                target='_blank'
+                className='py-2 w-[90px] h-fit text-zinc-600 dark:text-[#6B6B6B] text-sm font-semibold border border-zinc-200 dark:border-zinc-800 hover:bg-slate-100/60 dark:hover:bg-zinc-800 rounded-lg flex justify-center items-center gap-2 cursor-pointer transition-all duration-300'>
+                <FaGithub className='text-lg text-black dark:text-white'
+                />
+                Github
+            </a>
 
         </section>
     )

@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+
+.playwrite{
+  font-family: "Playwrite HU", cursive;
+}
