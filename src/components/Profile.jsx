@@ -1,5 +1,4 @@
 import React from 'react'
-import MyImage from "/tushar28.png"
 import { FaGithub } from "react-icons/fa";
 
 
@@ -10,14 +9,14 @@ const Profile = () => {
             <div className='flex gap-3 items-center'>
                 {/* profile image */}
                 <div className='h-12 w-12 rounded-full'>
-                    <img src={MyImage} alt='Tushar`s image' className='h-12 w-12 rounded-full' />
+                    <img src='/tushar28.webp' alt='Tushar`s image' className='h-12 w-12 rounded-full' />
                 </div>
 
                 <div>
                     {/* name */}
                     <h2 className='text-black dark:text-white font-semibold'>Tushar Suryawanshi</h2>
                     {/* work */}
-                    <h4 className='text-[#98A1B2] dark:text-[#6B6B6B] text-sm'>Frontend Developer</h4>
+                    <h4 className='text-[#98A1B2] dark:text-[#6B6B6B] text-sm'>Frontend Engineer</h4>
                 </div>
             </div>
 

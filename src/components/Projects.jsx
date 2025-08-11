@@ -1,20 +1,18 @@
 import React from 'react'
 import ProjectCard from './ProjectCard';
-import Dev from '/dev.png'
-import Travelo from '/travelo.png'
 
 const Projects = () => {
 
     const projects = [
         {
-            projectImage: Dev,
+            projectImage: '/dev.webp',
             name: 'Dev',
             description: 'AI Powered Blog Webapp',
             github: 'https://github.com/iamtushar28/dev',
             preview: 'https://dev-iota-one.vercel.app/',
         },
         {
-            projectImage: Travelo,
+            projectImage: '/travelo.webp',
             name: 'Travelo',
             description: 'Modern Travel Website',
             github: 'https://github.com/iamtushar28/travelo',

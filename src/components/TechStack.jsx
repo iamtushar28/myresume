@@ -1,16 +1,22 @@
 import React from 'react'
 import SkillButton from './SkillButton';
 import { FaReact, FaJsSquare, FaGithub } from "react-icons/fa";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb, SiGraphql, SiRedux } from "react-icons/si";
+import { RiNextjsFill, RiTailwindCssFill, RiFirebaseFill } from "react-icons/ri";
+import { SiMongodb, SiGraphql, SiRedux, SiPython } from "react-icons/si";
 
 const TechStack = () => {
 
     const skills = [
         {
             Icon: FaJsSquare,
-            iconColor: 'text-yellow-300',
+            iconColor: 'text-yellow-400',
             name: 'JavaScript',
+            description: 'Programming Language',
+        },
+        {
+            Icon: SiPython,
+            iconColor: 'text-blue-400',
+            name: 'Python',
             description: 'Programming Language',
         },
         {
@@ -36,6 +42,12 @@ const TechStack = () => {
             iconColor: 'text-sky-400',
             name: 'Tailwind CSS',
             description: 'CSS Framework',
+        },
+        {
+            Icon: RiFirebaseFill,
+            iconColor: 'text-yellow-500',
+            name: 'Firebase',
+            description: 'BAAS',
         },
         {
             Icon: SiMongodb,
