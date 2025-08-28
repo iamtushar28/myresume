@@ -8,8 +8,8 @@ const Profile = () => {
 
             <div className='flex gap-3 items-center'>
                 {/* profile image */}
-                <div className='h-12 w-12 rounded-full'>
-                    <img src='/tushar28.webp' alt='Tushar`s image' className='h-12 w-12 rounded-full' />
+                <div className='h-12 w-12'>
+                    <img src='/tushar28.webp' alt='Tushar`s image' className='h-12 w-12 rounded-2xl' />
                 </div>
 
                 <div>

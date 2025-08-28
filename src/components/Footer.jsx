@@ -21,7 +21,7 @@ const Footer = () => {
                         href={links.link}
                         target='_blank'
                         key={index}
-                        className='h-10 w-10 text-lg text-zinc-600 dark:text-zinc-500 hover:opacity-65 border border-zinc-200 dark:border-zinc-800 dark:hover:opacity-100 dark:hover:border-zinc-700 rounded-lg flex justify-center items-center cursor-pointer transition-all duration-300'>
+                        className='h-10 w-10 text-lg text-blue-500 hover:opacity-65 border border-zinc-200 dark:border-zinc-800 dark:hover:opacity-100 dark:hover:border-zinc-700 rounded-lg flex justify-center items-center cursor-pointer transition-all duration-300'>
                         {links.Icon}
                     </a>
                 ))}

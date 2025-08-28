@@ -2,7 +2,7 @@ import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { TbExternalLink } from "react-icons/tb";
 
-const ProjectCard = ({ projectImage, name, description, github, preview }) => {
+const ProjectCard = ({ projectImage, name, description, github, preview, onClick }) => {
     return (
         <>
             {/* project card */}
@@ -10,7 +10,7 @@ const ProjectCard = ({ projectImage, name, description, github, preview }) => {
 
                 {/* project image */}
                 <div className='w-full h-48 rounded-lg overflow-hidden'>
-                    <img src={projectImage} alt='project image' className='w-full h-48 border border-zinc-100 dark:border-zinc-700 rounded-lg object-center object-cover' />
+                    <img src={projectImage} onClick={onClick} alt='project image' className='w-full h-48 border border-zinc-100 dark:border-zinc-700 rounded-lg object-center object-cover' />
                 </div>
 
                 <div className='flex justify-between items-end'>
